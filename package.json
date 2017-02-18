@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "npm-run-all --parallel client server",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run start",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "postinstall": "npm run install-client && npm run install-server",
+    "clean": "rm -rf node_modules/ client/node_modules server/node_modules"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.1"
+  }
+}

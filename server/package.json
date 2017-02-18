@@ -1,0 +1,21 @@
+{
+  "name": "tvshowapp",
+  "version": "1.0.0",
+  "author": "Akira Laine",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.2",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
